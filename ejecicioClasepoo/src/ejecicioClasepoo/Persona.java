@@ -6,7 +6,7 @@ public abstract class Persona {
 	    public String apellidos = "";
 	    protected String cuentaBancaria = "";   
 
-	    // Constructor: recibe los 3 datos como parámetros y los guarda en los atributos
+	    
 	    public Persona(String nombresParam, String apellidosParam, String cuentaBancariaParam) {
 	    	nombres = nombresParam;
 			apellidos = apellidosParam;
