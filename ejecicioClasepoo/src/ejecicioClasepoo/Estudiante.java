@@ -4,7 +4,7 @@ public class Estudiante extends Persona  {
 	private int creditosObtenidos; 
 	
 	public Estudiante(String nombresParam,String apellidosParam,String cuentaBancariaParam, int creditosObtenidosParam) {
-		super(nombresParam, apellidosParam, cuentaBancariaParam);
+		super(nombresParam, apellidosParam, cuentaBancariaParam); ////Llama al constructor de Persona para iniciar los datos heredados
 		creditosObtenidos = creditosObtenidosParam;
 	}
 	
